@@ -35,8 +35,7 @@ namespace SharpMap.Layers
     ///
     /// For example, to make a mosaic of several TIFFs:
     ///
-    /// gdaltindex imagery.shp imagery/*.tif
-    
+    /// gdaltindex imagery.shp imagery/*.tif    
     /// See: http://mapserver.org/optimization/tileindex.html
     /// </summary>
     public class GdalTileIndexRasterLayer : GdalRasterLayer
@@ -71,7 +70,6 @@ namespace SharpMap.Layers
         /// For example, to make a mosaic of several TIFFs:
         ///
         /// gdaltindex imagery.shp imagery/*.tif
-
         /// See: http://mapserver.org/optimization/tileindex.html
         /// </summary>
         /// <param name="layerName">Name of the layer</param>
